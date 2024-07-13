@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿namespace GameOfLife;
+
+using System.Collections;
 
 public class Engine : IEnumerable<GameState>
 {

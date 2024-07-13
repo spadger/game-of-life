@@ -1,4 +1,6 @@
-﻿public class GameState
+﻿namespace GameOfLife;
+
+public class GameState
 {
     public static GameState Initialise(int width, int height, IEnumerable<Coordinate> initialState)
     {
